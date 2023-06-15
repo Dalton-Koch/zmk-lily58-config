@@ -40,7 +40,7 @@
 // | SHIFT      |  Z  |  X  |  C   |  V   |  B   |   "["  |  |  "]"  |  N   |  M        |  ,    |  .   |   /   |  SHIFT    |
 //                     | ALT  | GUI  | LOWER|  SPACE |  | ENTER | BSPC | TO RAISE  | GUI   |
             bindings = <
-&mt TAP_DANCE_0 &kp N1 &kp N2 &kp N3   &kp N4   &kp N5                     &kp N6   &kp N7   &kp N8    &kp N9  &kp N0   &kp TAP_DANCE_1
+&td0            &kp N1 &kp N2 &kp N3   &kp N4   &kp N5                     &kp N6   &kp N7   &kp N8    &kp N9  &kp N0   &td1
 &kp TAB         &kp Q  &kp W  &kp E    &kp R    &kp T                      &kp Y    &kp U    &kp I     &kp O   &kp P    &kp BSLH
 &kp LSHFT       &kp A  &kp S  &kp D    &kp F    &kp G                      &kp H    &kp J    &kp K     &kp L   &kp SEMI &kp SQT
 &kp LCTRL       &kp Z  &kp X  &kp C    &kp V    &kp B  &kp LBKT   &kp RBKT &kp N    &kp M    &kp COMMA &kp DOT &kp FSLH &kp MINUS
@@ -76,7 +76,7 @@
 // | SHIFT |  Z  |  X  |  C   |  V   |  B   |   "["  |  |  "]"  |  N   |  M         |  ,    |  .     |   /   | SHIFT |
 //                     | ALT  | GUI  | LOWER|  SPACE |  | ENTER | BSPC | TO DEFAULT | GUI   |
             bindings = <
-&kp ESC    &kp N1 &kp N2 &kp N3   &kp N4   &kp N5                     &kp N6   &kp N7   &kp N8    &kp N9    &kp N0   &kp TAP_DANCE_1
+&td0       &kp N1 &kp N2 &kp N3   &kp N4   &kp N5                     &kp N6   &kp N7   &kp N8    &kp N9    &kp N0   &td1
 &kp TAB    &kp Q  &kp W  &kp E    &kp R    &kp T                      &kp Y    &kp U    &kp UP    &kp O     &kp P    &kp BSLH
 &kp LSHFT  &kp A  &kp S  &kp D    &kp F    &kp G                      &kp H    &kp LEFT &kp DOWN  &kp right &kp SEMI &kp SQT
 &kp LCTRL  &kp Z  &kp X  &kp C    &kp V    &kp B  &kp LBKT   &kp RBKT &kp N    &kp M    &kp COMMA &kp DOT   &kp FSLH &kp MINUS
